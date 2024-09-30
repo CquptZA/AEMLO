@@ -4,7 +4,7 @@
 This script is the main training file for the AEMLO model. It handles the model initialization, training process, parameter tuning, and the final model saving.
 
 ## `Generate_Instance.py`
-This file is responsible for generating training instances for the model, including tasks such as data preprocessing, sample generation, and augmentation, providing input data for the model.
+This file is responsible for generating training instances for the AEMLO, including tasks such as data preprocessing, sample generation, and augmentation, providing input data for the model.
 
 ## `Main.ipynb`
 This is a Jupyter Notebook file used for interactively running the key steps of the AEMLO project. It allows step-by-step code execution, making it easier for debugging and experimentation.
