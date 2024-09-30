@@ -19,6 +19,27 @@ This file is a multi-label experimental module that integrates AEMLO-sampled ins
 This is a Jupyter Notebook file used for interactively running the AEMLO with different base Multi-label Classifier.
 
 
+
+## Requirements
+
+Please, install the following packages
+
+    numpy 1.21.6
+    
+    pytorch 1.11.0
+    
+    scikit-learn 1.0.2
+    
+    scikit-multilearn 0.2.0
+    
+    and python==3.7
+
+About scikit-multilearn reference [scikit-multilearn GitHub Repository](https://github.com/scikit-multilearn/scikit-multilearn) This package has many errors, such as iterative_train_test_split, you can refer to its issues for resolution.
+
+
+
+
+
 ## Usage
 
 run `Main.ipynb`
