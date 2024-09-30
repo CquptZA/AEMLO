@@ -40,8 +40,17 @@ parameters = {
     "batch_size": params["batch_size"],
     "learningrate": params["learningrate"]
 }
-
+```
 
 ## Citing this repository
 If you find this code useful in your research, please consider citing us:
- 
+
+```python
+@inproceedings{zhou2024aemlo,
+  title={AEMLO: AutoEncoder-Guided Multi-label Oversampling},
+  author={Zhou, Ao and Liu, Bin and Wang, Jin and Sun, Kaiwei and Liu, Kelin},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={107--124},
+  year={2024}
+}
+ ```
