@@ -40,4 +40,8 @@ parameters = {
     "batch_size": params["batch_size"],
     "learningrate": params["learningrate"]
 }
+
+
+## Citing this repository
+If you find this code useful in your research, please consider citing us:
  
