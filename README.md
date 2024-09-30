@@ -4,7 +4,7 @@
 This script is the main training file for the AEMLO model. It handles the model initialization, training process, parameter tuning, and the final model saving.
 
 ### `Generate_Instance.py`
-This file is responsible for generating training instances for the AEMLO, including tasks such as data preprocessing, sample generation, and augmentation, providing input data for the model.
+This file is responsible for generating instances for the trained AEMLO.
 
 ### `Model.py`
 This file contains the core model definition for the AEMLO project. It implements the model architecture, forward propagation, and backpropagation for deep learning-related functions.
