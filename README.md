@@ -34,7 +34,9 @@ Please, install the following packages
     
     and python==3.7
 
-About scikit-multilearn reference [scikit-multilearn GitHub Repository](https://github.com/scikit-multilearn/scikit-multilearn) This package has many errors, such as iterative_train_test_split, you can refer to its issues for resolution.
+About scikit-multilearn reference [scikit-multilearn GitHub Repository](https://github.com/scikit-multilearn/scikit-multilearn).
+
+This package has many errors, such as iterative_train_test_split, you can refer to its issues for resolution.
 
 
 
@@ -75,3 +77,6 @@ If you find this code useful in your research, please consider citing us:
   year={2024}
 }
  ```
+
+## Tips
+If you have any specific questions, please contact zacqupt@gmail.com
