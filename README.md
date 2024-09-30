@@ -14,4 +14,5 @@ This file contains the core model definition for the AEMLO project. It implement
 This file includes preprocessing functions, such as data cleaning, feature extraction, and transformation. These functions prepare the input data for the model.
 
 ## `Train_Classifier.py`
-This file is responsible for training the classifier part of the project, likely working in conjunction with `AEMLO_train.py`, and focuses on training a classification model for specific tasks.
+This file is a multi-label experimental module that integrates AEMLO-sampled instances with the original training set. It then applies well-known multi-label classifiers such as BR, MLkNN, and RAkEL to evaluate the model's performance. The results are displayed using various metrics, including Macro-level evaluations, providing a comprehensive comparison of the classifiers' effectiveness.
+
