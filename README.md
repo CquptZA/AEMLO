@@ -53,10 +53,13 @@ parameters = {
     "dataname": dataname,
     "feat_dim": X[train].shape[1],
     "num_labels": y[train].shape[1],
+
+// The core dimension parameters can be understood by referring to the paper
     "latent_dim": params["latent_dim"],
     "fx_h_dim": params["fx_h_dim"],
     "fe_h_dim": params["fe_h_dim"],
     "fd_h_dim": params["fd_h_dim"],
+
     "X_train": X[train],
     "y_train": y[train],
     "epoch": params["epoch"],
