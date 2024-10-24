@@ -60,7 +60,7 @@ class Fd_x(torch.nn.Module):
 class AEMLO(torch.nn.Module):
     def __init__(self, Fx, Fy, Fd_y, Fd_x, beta=1, alpha=.5, emb_lambda=.1, latent_dim=6,
                  device=None):
-        super(C2AE, self).__init__()
+        super(AEMLO, self).__init__()
         self.Fx = Fx
         self.Fy = Fy
         self.Fd_y = Fd_y
