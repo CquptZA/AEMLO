@@ -2,7 +2,14 @@
 # coding: utf-8
 
 # In[ ]:
+class AttentionLayer(torch.nn.Module):
+    def __init__(self, in_features, out_features):
+        super(AttentionLayer, self).__init__()
+        self.attention_weights = torch.nn.Linear(in_features, out_features)
 
+    def forward(self, x):
+        scores = torch.sigmoid(self.attention_weights(x))
+        return x * scores
 
 class Fx(torch.nn.Module):
     def __init__(self, in_dim, H, out_dim, dropout_rate=0.5):
